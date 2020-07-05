@@ -36,7 +36,7 @@ function sync(done) {
             baseDir: paths.dstDir,
             index: 'index.html',
         },
-        open: 'external',
+        open: 'false',
         reloadOnRestart: true,
     });
     done();
